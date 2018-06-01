@@ -4,13 +4,15 @@
   "description": "The worst agile tracking tool",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server -a 0.0.0.0 --cors"
   },
   "author": "Ryan Latta",
   "license": "ISC",
   "dependencies": {
     "backbone": "^1.3.3",
     "backbone.marionette": "^3.5.1",
-    "underscore": "^1.9.1"
+    "http-server": "^0.11.1",
+    "underscore": "^1.8.3"
   }
 }
